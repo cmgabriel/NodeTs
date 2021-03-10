@@ -8,7 +8,7 @@ const PORT = 5000;
 app.get('/',(req,res,next) => {
     res.status(200).json({
         'message': 'Running Node with Express and Typescript'
-    })
+    });
 });
 
 app.listen(PORT, () => {
